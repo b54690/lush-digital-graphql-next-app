@@ -1,14 +1,20 @@
-export type Person = {
-  id: string
-  name: string
-  height: string
-  mass: string
-  hair_color: string
-  skin_color: string
-  eye_color: string
-  gender: string
-}
+export type ProductDescriptionBlock = {
+  data: { text: string };
+};
 
-export type ResponseError = {
-  message: string
-}
+export type Category = {
+  id: string;
+  name: string;
+};
+
+export type Product = {
+  node: {
+    id: string;
+    name: string;
+    thumbnail?: { url: string };
+    category: Category;
+    description: {
+      blocks?: ProductDescriptionBlock[];
+    };
+  };
+};
