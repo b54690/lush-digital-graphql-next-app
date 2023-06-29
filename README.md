@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basic API routes example
 
 Next.js ships with [API routes](https://nextjs.org/docs/api-routes/introduction) which provides an easy solution to build your own `API`. This example shows how to create multiple `API` endpoints with serverless functions, which can execute independently.
@@ -25,3 +26,6 @@ pnpm create next-app --example api-routes api-routes-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+=======
+# lush-digital-graphql-next-app
+>>>>>>> 751f5dd5f08e3c7eb90bd6923da9388330f88d50
